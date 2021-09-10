@@ -1,0 +1,17 @@
+body{
+    font-family: 'Titillium Web', sans-serif;
+
+}
+
+a:hover
+{
+    color: #0dcaf0 !important;
+}
+
+.itemCard{
+    background-color: #232a31 !important;
+    border: solid 1px #2e343a;
+}
+#Status{
+    font-size: 10px;
+}

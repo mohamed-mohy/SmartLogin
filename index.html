@@ -1,0 +1,41 @@
+<html>
+    <head>
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="stylesheet" href="css/index_style.css">
+
+
+    </head>
+    <body class="bg-dark" onload="loadonindex()">
+
+
+
+        <div class="container w-50 m-auto text-center my-5 p-5 shadow-lg">
+            <div id="loginForm" >
+                
+                <h1 class="text-info fw-bold">Smart Login System</h1>
+
+                <div id="VemailIn" class="d-none">
+                    This Email or Password is Not Valid
+                    </div>
+            <input type="text" id="Login_Email" class="form-control my-3 bg-dark text-white" placeholder="Enter Your Email">
+            
+            
+
+            <div class="position-relative">
+            <input type="password" id="Login_Pass" class="form-control my-3 bg-dark text-white" placeholder="Enter Your Password">
+            <span class="show-pass" onclick="toggle1()">
+                <i class="far fa-eye" onclick="ShowPass(this)"></i>
+            </span>
+            </div>
+            <button class="btn btn-outline-info my-3 w-100" onclick="login()">Login</button>
+            <p class="text-center text-white" >Don’t have an account? <a class="text-decoration-none text-white" href="signup.html">Sign Up</a></p>
+            </div>
+        </div>
+
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/index.js"></script>
+        <script src="js/mine.js"></script>
+    </body>
+</html>

@@ -1,0 +1,49 @@
+body{
+    font-family: 'Titillium Web', sans-serif;
+
+}
+a:hover
+{
+    color: #0dcaf0 !important;
+}
+
+.progress {
+    height: 3px !important;
+}
+.form-group {
+    margin-bottom: 10px;
+}
+.show-pass{
+    position: absolute;
+    top:5%;
+    right: 8%;
+}
+.progress-bar-danger {
+    background-color: #e90f10 !important;
+}
+.progress-bar-warning{
+    background-color: #ffad00 !important;
+}
+.progress-bar-success{
+    background-color: #02b502 !important;
+}
+
+.fa-eye{
+    color: #cfd3da !important;
+    cursor: pointer;
+}
+.fa-eye-slash
+{
+    color: #cfd3da !important;
+    cursor: pointer;
+}
+.fa-circle{
+    font-size: 6px;  
+}
+.fa-check{
+    color: #02b502 !important;
+}
+.green
+{
+    color: #02b502 !important;
+}

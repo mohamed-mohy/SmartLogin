@@ -1,0 +1,22 @@
+body{
+    font-family: 'Titillium Web', sans-serif;
+
+}
+a:hover
+{
+    color: #0dcaf0 !important;
+}
+.show-pass{
+    position: absolute;
+    top:25%;
+    right: 8%;
+}
+.fa-eye{
+    color: #cfd3da !important;
+    cursor: pointer;
+}
+.fa-eye-slash
+{
+    color: #cfd3da !important;
+    cursor: pointer;
+}
