@@ -31,7 +31,7 @@ function singUPValid(){
     })
 
     SignUp_Email.addEventListener("focusout" ,function(){
-        if(myRegExpEmail.test(SignUp_Email.value))
+        if(myRegExpEmail.test(SignUp_Email.value.toLowerCase()))
         {
             
             for (let i = 0; i < allUsers.length; i++) 
